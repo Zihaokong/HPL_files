@@ -1,0 +1,5 @@
+mpi/openmpi-4.0.3(5):ERROR:150: Module 'mpi/openmpi-4.0.3' conflicts with the currently loaded module(s) 'mpi/openmpi'
+mpi/openmpi-4.0.3(5):ERROR:102: Tcl command execution failed: conflict        mpi
+
+/var/spool/slurmd/job00006/slurm_script: line 34: /bin/mpirun: No such file or directory
+/var/spool/slurmd/job00006/slurm_script: line 36: /bin/mpirun: No such file or directory
