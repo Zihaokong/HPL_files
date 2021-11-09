@@ -1,0 +1,365 @@
+make -f Make.top startup_dir     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+mkdir -p include/Linux_Rome_BLIS
+mkdir -p lib
+mkdir -p lib/Linux_Rome_BLIS
+mkdir -p bin
+mkdir -p bin/Linux_Rome_BLIS
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top startup_src     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/auxil       arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/auxil ; mkdir -p Linux_Rome_BLIS )
+( cd src/auxil/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/blas        arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/blas ; mkdir -p Linux_Rome_BLIS )
+( cd src/blas/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/comm        arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/comm ; mkdir -p Linux_Rome_BLIS )
+( cd src/comm/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/grid        arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/grid ; mkdir -p Linux_Rome_BLIS )
+( cd src/grid/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/panel       arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/panel ; mkdir -p Linux_Rome_BLIS )
+( cd src/panel/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/pauxil      arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/pauxil ; mkdir -p Linux_Rome_BLIS )
+( cd src/pauxil/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/pfact       arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/pfact ; mkdir -p Linux_Rome_BLIS )
+( cd src/pfact/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=src/pgesv       arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/pgesv ; mkdir -p Linux_Rome_BLIS )
+( cd src/pgesv/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top startup_tst     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=testing/matgen  arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/matgen ; mkdir -p Linux_Rome_BLIS )
+( cd testing/matgen/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=testing/timer   arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/timer ; mkdir -p Linux_Rome_BLIS )
+( cd testing/timer/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=testing/pmatgen arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/pmatgen ; mkdir -p Linux_Rome_BLIS )
+( cd testing/pmatgen/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=testing/ptimer  arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/ptimer ; mkdir -p Linux_Rome_BLIS )
+( cd testing/ptimer/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top leaf le=testing/ptest   arch=Linux_Rome_BLIS
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/ptest ; mkdir -p Linux_Rome_BLIS )
+( cd testing/ptest/Linux_Rome_BLIS ; \
+            ln -fs /shared/home/ccuser/hpl-2.3/Make.Linux_Rome_BLIS Make.inc )
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top refresh_src     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+cp makes/Make.auxil    src/auxil/Linux_Rome_BLIS/Makefile
+cp makes/Make.blas     src/blas/Linux_Rome_BLIS/Makefile
+cp makes/Make.comm     src/comm/Linux_Rome_BLIS/Makefile
+cp makes/Make.grid     src/grid/Linux_Rome_BLIS/Makefile
+cp makes/Make.panel    src/panel/Linux_Rome_BLIS/Makefile
+cp makes/Make.pauxil   src/pauxil/Linux_Rome_BLIS/Makefile
+cp makes/Make.pfact    src/pfact/Linux_Rome_BLIS/Makefile
+cp makes/Make.pgesv    src/pgesv/Linux_Rome_BLIS/Makefile
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top refresh_tst     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+cp makes/Make.matgen   testing/matgen/Linux_Rome_BLIS/Makefile
+cp makes/Make.timer    testing/timer/Linux_Rome_BLIS/Makefile
+cp makes/Make.pmatgen  testing/pmatgen/Linux_Rome_BLIS/Makefile
+cp makes/Make.ptimer   testing/ptimer/Linux_Rome_BLIS/Makefile
+cp makes/Make.ptest    testing/ptest/Linux_Rome_BLIS/Makefile
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top refresh_src     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+cp makes/Make.auxil    src/auxil/Linux_Rome_BLIS/Makefile
+cp makes/Make.blas     src/blas/Linux_Rome_BLIS/Makefile
+cp makes/Make.comm     src/comm/Linux_Rome_BLIS/Makefile
+cp makes/Make.grid     src/grid/Linux_Rome_BLIS/Makefile
+cp makes/Make.panel    src/panel/Linux_Rome_BLIS/Makefile
+cp makes/Make.pauxil   src/pauxil/Linux_Rome_BLIS/Makefile
+cp makes/Make.pfact    src/pfact/Linux_Rome_BLIS/Makefile
+cp makes/Make.pgesv    src/pgesv/Linux_Rome_BLIS/Makefile
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top refresh_tst     arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+cp makes/Make.matgen   testing/matgen/Linux_Rome_BLIS/Makefile
+cp makes/Make.timer    testing/timer/Linux_Rome_BLIS/Makefile
+cp makes/Make.pmatgen  testing/pmatgen/Linux_Rome_BLIS/Makefile
+cp makes/Make.ptimer   testing/ptimer/Linux_Rome_BLIS/Makefile
+cp makes/Make.ptest    testing/ptest/Linux_Rome_BLIS/Makefile
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top build_src       arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd src/auxil/Linux_Rome_BLIS;         make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/auxil/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlacpy.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlacpy.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlatcpy.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlatcpy.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_fprintf.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_fprintf.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_warn.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_warn.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_abort.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_abort.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaprnt.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaprnt.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlange.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlange.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlamch.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include  ../HPL_dlamch.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_dlacpy.o           HPL_dlatcpy.o          HPL_fprintf.o HPL_warn.o             HPL_abort.o            HPL_dlaprnt.o HPL_dlange.o HPL_dlamch.o
+ar: creating /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/auxil/Linux_Rome_BLIS'
+( cd src/blas/Linux_Rome_BLIS;          make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/blas/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_dcopy.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dcopy.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_daxpy.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_daxpy.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dscal.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dscal.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_idamax.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_idamax.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dgemv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dgemv.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dtrsv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dtrsv.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dger.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dger.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dgemm.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dgemm.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dtrsm.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dtrsm.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_dcopy.o            HPL_daxpy.o            HPL_dscal.o HPL_idamax.o           HPL_dgemv.o            HPL_dtrsv.o HPL_dger.o             HPL_dgemm.o            HPL_dtrsm.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/blas/Linux_Rome_BLIS'
+( cd src/comm/Linux_Rome_BLIS;          make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/comm/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_1ring.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_1ring.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_1rinM.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_1rinM.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_2ring.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_2ring.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_2rinM.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_2rinM.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_blong.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_blong.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_blonM.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_blonM.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_packL.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_packL.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_copyL.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_copyL.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_binit.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_binit.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_bcast.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_bcast.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_bwait.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_bwait.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_send.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_send.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_recv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_recv.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_sdrv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_sdrv.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_1ring.o            HPL_1rinM.o            HPL_2ring.o HPL_2rinM.o            HPL_blong.o            HPL_blonM.o HPL_packL.o            HPL_copyL.o            HPL_binit.o HPL_bcast.o            HPL_bwait.o            HPL_send.o HPL_recv.o             HPL_sdrv.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/comm/Linux_Rome_BLIS'
+( cd src/grid/Linux_Rome_BLIS;          make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/grid/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_grid_init.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_grid_init.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pnum.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pnum.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_grid_info.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_grid_info.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_grid_exit.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_grid_exit.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_broadcast.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_broadcast.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_reduce.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_reduce.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_all_reduce.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_all_reduce.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_barrier.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_barrier.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_min.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_min.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_max.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_max.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_sum.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_sum.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_grid_init.o        HPL_pnum.o             HPL_grid_info.o HPL_grid_exit.o        HPL_broadcast.o        HPL_reduce.o HPL_all_reduce.o       HPL_barrier.o          HPL_min.o HPL_max.o              HPL_sum.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/grid/Linux_Rome_BLIS'
+( cd src/panel/Linux_Rome_BLIS;         make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/panel/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanel_new.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanel_new.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanel_init.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanel_init.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanel_disp.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanel_disp.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanel_free.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanel_free.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_pdpanel_new.o      HPL_pdpanel_init.o     HPL_pdpanel_disp.o HPL_pdpanel_free.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/panel/Linux_Rome_BLIS'
+( cd src/pauxil/Linux_Rome_BLIS;        make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/pauxil/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_indxg2l.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_indxg2l.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_indxg2lp.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_indxg2lp.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_indxg2p.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_indxg2p.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_indxl2g.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_indxl2g.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_infog2l.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_infog2l.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_numroc.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_numroc.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_numrocI.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_numrocI.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp00N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp00N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp10N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp10N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp01N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp01N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp01T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp01T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp02N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp02N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp03N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp03N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp03T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp03T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp04N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp04N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp04T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp04T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp05N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp05N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp05T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp05T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp06N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp06N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlaswp06T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlaswp06T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pwarn.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pwarn.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pabort.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pabort.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlaprnt.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlaprnt.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlamch.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlamch.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlange.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlange.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_indxg2l.o          HPL_indxg2lp.o         HPL_indxg2p.o HPL_indxl2g.o          HPL_infog2l.o          HPL_numroc.o HPL_numrocI.o          HPL_dlaswp00N.o        HPL_dlaswp10N.o HPL_dlaswp01N.o        HPL_dlaswp01T.o        HPL_dlaswp02N.o HPL_dlaswp03N.o        HPL_dlaswp03T.o        HPL_dlaswp04N.o HPL_dlaswp04T.o        HPL_dlaswp05N.o        HPL_dlaswp05T.o HPL_dlaswp06N.o        HPL_dlaswp06T.o        HPL_pwarn.o HPL_pabort.o           HPL_pdlaprnt.o         HPL_pdlamch.o HPL_pdlange.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/pauxil/Linux_Rome_BLIS'
+( cd src/pfact/Linux_Rome_BLIS;         make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/pfact/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlocmax.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlocmax.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlocswpN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlocswpN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_dlocswpT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dlocswpT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdmxswp.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdmxswp.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpancrN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpancrN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpancrT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpancrT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanllN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanllN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanllT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanllT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanrlN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanrlN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdpanrlT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdpanrlT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpanllN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpanllN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpanllT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpanllT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpancrN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpancrN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpancrT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpancrT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpanrlN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpanrlN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdrpanrlT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdrpanrlT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdfact.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdfact.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_dlocmax.o          HPL_dlocswpN.o         HPL_dlocswpT.o HPL_pdmxswp.o          HPL_pdpancrN.o         HPL_pdpancrT.o HPL_pdpanllN.o         HPL_pdpanllT.o         HPL_pdpanrlN.o HPL_pdpanrlT.o         HPL_pdrpanllN.o        HPL_pdrpanllT.o HPL_pdrpancrN.o        HPL_pdrpancrT.o        HPL_pdrpanrlN.o HPL_pdrpanrlT.o        HPL_pdfact.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/pfact/Linux_Rome_BLIS'
+( cd src/pgesv/Linux_Rome_BLIS;         make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/src/pgesv/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_pipid.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pipid.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_plindx0.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_plindx0.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlaswp00N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlaswp00N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlaswp00T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlaswp00T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_perm.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_perm.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_logsort.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_logsort.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_plindx10.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_plindx10.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_plindx1.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_plindx1.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_spreadN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_spreadN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_spreadT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_spreadT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_rollN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_rollN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_rollT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_rollT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_equil.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_equil.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlaswp01N.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlaswp01N.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdlaswp01T.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdlaswp01T.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdupdateNN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdupdateNN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdupdateNT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdupdateNT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdupdateTN.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdupdateTN.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdupdateTT.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdupdateTT.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdtrsv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdtrsv.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdgesv0.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdgesv0.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdgesvK1.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdgesvK1.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdgesvK2.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdgesvK2.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdgesv.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdgesv.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_pipid.o            HPL_plindx0.o          HPL_pdlaswp00N.o HPL_pdlaswp00T.o       HPL_perm.o             HPL_logsort.o HPL_plindx10.o         HPL_plindx1.o          HPL_spreadN.o HPL_spreadT.o          HPL_rollN.o            HPL_rollT.o HPL_equil.o            HPL_pdlaswp01N.o       HPL_pdlaswp01T.o HPL_pdupdateNN.o       HPL_pdupdateNT.o       HPL_pdupdateTN.o HPL_pdupdateTT.o       HPL_pdtrsv.o           HPL_pdgesv0.o HPL_pdgesvK1.o         HPL_pdgesvK2.o         HPL_pdgesv.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/src/pgesv/Linux_Rome_BLIS'
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make -f Make.top build_tst       arch=Linux_Rome_BLIS
+make[1]: Entering directory '/shared/home/ccuser/hpl-2.3'
+( cd testing/matgen/Linux_Rome_BLIS;    make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/testing/matgen/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_dmatgen.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_dmatgen.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_ladd.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_ladd.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_lmul.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_lmul.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_xjumpm.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_xjumpm.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_jumpit.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_jumpit.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_rand.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_rand.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_setran.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_setran.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_dmatgen.o          HPL_ladd.o             HPL_lmul.o HPL_xjumpm.o           HPL_jumpit.o           HPL_rand.o HPL_setran.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/testing/matgen/Linux_Rome_BLIS'
+( cd testing/timer/Linux_Rome_BLIS;     make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/testing/timer/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_timer.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_timer.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_timer_cputime.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_timer_cputime.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_timer_walltime.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_timer_walltime.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_timer.o            HPL_timer_cputime.o    HPL_timer_walltime.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/testing/timer/Linux_Rome_BLIS'
+( cd testing/pmatgen/Linux_Rome_BLIS;   make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/testing/pmatgen/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdmatgen.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdmatgen.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_pdmatgen.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/testing/pmatgen/Linux_Rome_BLIS'
+( cd testing/ptimer/Linux_Rome_BLIS;    make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/testing/ptimer/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_ptimer.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_ptimer.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_ptimer_cputime.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_ptimer_cputime.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_ptimer_walltime.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_ptimer_walltime.c
+ar r /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a HPL_ptimer.o           HPL_ptimer_cputime.o   HPL_ptimer_walltime.o
+echo /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+/shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a
+touch lib.grd
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/testing/ptimer/Linux_Rome_BLIS'
+( cd testing/ptest/Linux_Rome_BLIS;     make )
+make[2]: Entering directory '/shared/home/ccuser/hpl-2.3/testing/ptest/Linux_Rome_BLIS'
+/opt/gcc-9.2.0/bin/gcc -o HPL_pddriver.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pddriver.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdinfo.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdinfo.c
+/opt/gcc-9.2.0/bin/gcc -o HPL_pdtest.o -c -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops  ../HPL_pdtest.c
+/opt/gcc-9.2.0/bin/gcc -DAdd__ -DF77_INTEGER=int -DStringSunStyle -DHPL_PROGRESS_REPORT -I/shared/home/ccuser/hpl-2.3/include -I/shared/home/ccuser/hpl-2.3/include/Linux_Rome_BLIS -I/opt/amd/include -I/opt/openmpi-4.0.5/include -march=znver2 -fomit-frame-pointer -O3 -funroll-loops -o /shared/home/ccuser/hpl-2.3/bin/Linux_Rome_BLIS/xhpl HPL_pddriver.o         HPL_pdinfo.o           HPL_pdtest.o /shared/home/ccuser/hpl-2.3/lib/Linux_Rome_BLIS/libhpl.a /opt/amd/lib/libblis-mt.so /opt/openmpi-4.0.5/lib/libmpi.so -lm
+/usr/bin/ld: warning: libomp.so, needed by /opt/amd/lib/libblis-mt.so, not found (try using -rpath or -rpath-link)
+/opt/amd/lib/libblis-mt.so: undefined reference to `__kmpc_barrier@VERSION'
+/opt/amd/lib/libblis-mt.so: undefined reference to `__kmpc_push_num_threads@VERSION'
+/opt/amd/lib/libblis-mt.so: undefined reference to `__kmpc_global_thread_num@VERSION'
+/opt/amd/lib/libblis-mt.so: undefined reference to `omp_get_thread_num@VERSION'
+/opt/amd/lib/libblis-mt.so: undefined reference to `__kmpc_fork_call@VERSION'
+/opt/amd/lib/libblis-mt.so: undefined reference to `omp_get_num_threads@VERSION'
+collect2: error: ld returned 1 exit status
+make[2]: *** [Makefile:76: dexe.grd] Error 1
+make[2]: Leaving directory '/shared/home/ccuser/hpl-2.3/testing/ptest/Linux_Rome_BLIS'
+make[1]: *** [Make.top:68: build_tst] Error 2
+make[1]: Leaving directory '/shared/home/ccuser/hpl-2.3'
+make: *** [Makefile:73: build] Error 2
